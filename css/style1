@@ -1,0 +1,107 @@
+.part-one {
+	background-image: url(../imgs/m3.jpg);
+	background-size: 400px 170px; 
+	background-repeat: no-repeat;
+	width: 400px;
+	height: 170px;
+}
+
+#main-title {
+	font-size: 29pt;
+	font-family: 'Pacifico', cursive;
+	color: #0f0a63;
+	padding-left: 10px;
+
+}
+
+#menu {
+	font-size: 15pt;
+	font-family: 'Cinzel', serif;	
+	color: #1C6B94;
+	padding-left: 10px;
+	margin-top: 72px;
+}
+
+#icon {
+	padding-left: 175px;
+	padding-top: 5px;
+	padding-bottom: 0px;
+	margin-bottom: 0px;
+}
+
+#title-two {
+	text-align: center;
+	font-family: 'Rammetto One', cursive;
+	font-size: 22pt;
+	margin-top: -13px;
+	padding-top: 0px;
+	color: #DD09A9;
+}
+
+#description {
+	text-align: center;
+	font-family: 'PT Sans', sans-serif;
+	font-size: 14pt;
+	color: #1C92C3;
+	margin-top: -5px;
+	padding-left: 10px;
+	padding-right: 10px;
+	padding-bottom: 13px;
+}
+
+.part-three {
+	background-color: #f5f1ed;
+	width: 405px;
+	height: 125px;
+	background-image: url(../imgs/n1.jpg);
+	background-size: 205px 85px;
+	background-position: 220px 60px;
+	background-repeat: no-repeat;
+
+
+}
+
+#hotel {
+	text-align: right;
+	font-family: 'Rammetto One', cursive;
+	font-size: 20pt;
+	color: #DD09A9;
+	padding-right: 35px;
+	margin-top: -115px;
+	padding-bottom: 20px;
+}
+
+.part-four {
+	width: 360px;
+	height: 140px;
+	background-color: #f5f1ed;
+	background-image: url(../imgs/n8.jpg);
+	background-size: 185px 85px;
+	background-position: 0px 75px;
+	background-repeat: no-repeat;
+}
+
+#night {
+
+}
+
+#drink {
+	float: right;
+	margin-right: -40px;
+	margin-top: -20px;
+}
+
+
+$('.menu-icon').click(function(){
+				$nav.slideToggle();
+			});
+		});
+
+
+$(function() {
+		$nav = $('.nav-list');
+
+		$('.menu-icon').click(function(){
+			$nav.slideToggle();
+		});
+	});

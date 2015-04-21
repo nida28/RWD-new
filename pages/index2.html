@@ -1,0 +1,120 @@
+<html>
+<head>
+<meta charset="UTF-8">
+<title>Discover Mauritius</title>
+<link rel="stylesheet" type="text/css" href="css/style.css">
+<link href='http://fonts.googleapis.com/css?family=Pacifico' rel='stylesheet' type='text/css'>
+<link href='http://fonts.googleapis.com/css?family=Cinzel:700' rel='stylesheet' type='text/css'>
+<link href='http://fonts.googleapis.com/css?family=Rammetto+One' rel='stylesheet' type='text/css'>
+<link href='http://fonts.googleapis.com/css?family=PT+Sans:700' rel='stylesheet' type='text/css'>
+<script src="https://ajax.googleapis.com/ajax/libs/jqueryui/1.11.0/jquery-ui.min.js"></script>
+</head>
+<body>
+	
+	<div class="part-one">
+		<nav>
+			
+			<img src="imgs/d2.png">
+			
+			<p class="menu-list">Menu</p>
+		
+			<ul class="nav-list">
+				<li>
+					<a class="food" href="#food">
+						Local food
+					</a>
+				</li>
+				<li>
+					<a class="people" href="..\HTML exercise\pages\mau.html">
+						People
+					</a>
+				</li>
+				<li>
+					<a class="places" href="#places">
+						Places to see
+					</a>
+				</li>
+				<li>
+					<a class="flights" href="#flights">
+						Book flights
+					</a>
+				</li>
+			</ul>
+		
+		</nav>	
+	</div>
+	
+	<div class="part-two">
+		<ul id="title-two">
+			<li>MAURITIUS.</li>
+		</ul>
+		<ul id="description">
+			<li>Lorem ipsum dolor sit amet, consectetur adipisicing elit, sed do eiusmod tempor incid</li>
+		</ul>
+	</div>
+	
+	<div class="part-three">
+		<img id="hotel-1" src="imgs/m10.jpg">
+		<ul id="hotel">
+			<li>HOTELS</li>
+		</ul>
+		<img id="hotel-2" src="imgs/m9.jpg">
+
+	</div>
+	
+	<div class="part-four">
+		<ul id="night">
+			<li id="n1">NIGHT LIFE</li>
+		</ul>
+		<img id="drink-1" src="imgs/n8.jpg">
+		<img id="drink-2" src="imgs/n7.jpg">
+	</div>
+	
+	<div class="part-five">
+		<img id="park-1" src="imgs/n9.jpg">
+		<ul id="nature">
+			<li>NATURE <br> PARKS</li>
+		</ul>
+		<img id="park-2" src="imgs/s1.jpg">
+	</div>
+	
+	<footer>
+		<ul id="footer">
+			<button id="one" type="">LEARN MORE</button>
+			<li id="copy">Copyright © Mauritius Tourism Promotion Authority</li>
+		</ul>
+	</footer>
+
+<script type="text/javascript">
+	$(function() {
+		$nav = $('.nav-list');
+
+		$('.menu-list').click(function(){
+			$nav.slideToggle();
+		});
+	});
+	
+</script>
+
+<script type="text/javascript">
+	$(function(){
+		$('a.food').click(function(){
+			$('html, body').animate({scrollTop:$('#food').offset().top}, 1000);
+		});
+		
+		$('a.people').click(function(){
+			$('html, body').animate({scrollTop:$('#people').offset().top}, 1000);
+		});
+		
+		$('a.places').click(function(){
+			$('html, body').animate({scrollTop:$('#places').offset().top}, 1000);
+		});
+
+		$('a.flights').click(function(){
+			$('html, body').animate({scrollTop:$('#flights').offset().top}, 1000);
+		});
+	});
+</script>
+
+</body>
+</html>
