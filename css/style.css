@@ -4,13 +4,17 @@ html, body, img, p {
 	list-style-type: none;
 }
 
+body {
+	background-color: #F7F2EC;
+}
+
 .clearfix {
 	overflow: auto;
 }
 
 #title-1 {
 	font-family: 'Berkshire Swash', cursive;
-	font-size: 200%;
+	font-size: 230%;
 	padding-left: 3%;
 	padding-bottom: 2%;
 	color: #FA0606;
@@ -27,18 +31,54 @@ html, body, img, p {
 
 #title-2 {
 	font-family:'Overlock', cursive;
-	font-size: 230%;
+	font-size: 250%;
 	padding-left: 3%;
 	padding-top: 3%;
 	padding-bottom: 2.3%;
 	color: #13D504
 }
 
+#title-3 {
+	font-family:'Merienda', cursive;
+	font-size: 210%;
+	font-weight: bold;
+	padding-left: 3%;
+	padding-top: 3%;
+	padding-bottom: 2.3%;
+	color: #0BCFEC;
+}
+
 #text {
 	font-family: 'Open Sans', sans-serif;
-	font-size: 135%;
+	font-size: 127%;
 	padding-left: 3%;
 	padding-top: 1%;
 	padding-bottom: 3%;
 	padding-right: 1%;
+}
+
+#text1 {
+	font-family: 'Open Sans', sans-serif;
+	font-size: 127%;
+	padding-left: 3%;
+	padding-top: 1%;
+	padding-bottom: 2%;
+	padding-right: 1%;
+}
+
+#one {
+    background-color: #0EC1EE;
+    height: 7%;
+    width: 30%;
+    color: #FF39C9;
+    margin-left: 34.5%;
+    font-family: 'Cinzel', serif;
+    font-size: 150%;
+    margin-top: 3%;
+    border: none;
+    margin-bottom: 8%;
+}
+
+a:hover{
+    opacity: 0.75;
 }

@@ -22,23 +22,23 @@
 		
 			<ul class="nav-list">
 				<li>
-					<a class="food" href="#food">
-						Local food
+					<a class="food" href="pages/food.html">
+						Local Food
 					</a>
 				</li>
 				<li>
-					<a class="people" href="..\HTML exercise\pages\mau.html">
-						People
+					<a class="culture" href="pages/culture.html">
+						Culture
 					</a>
 				</li>
 				<li>
-					<a class="places" href="#places">
-						Places to see
+					<a class="places" href="pages/places.html">
+						Places To See
 					</a>
 				</li>
 				<li>
-					<a class="flights" href="#flights">
-						Book flights
+					<a class="flights" href="http://www.airmauritius.com/index_mu.htm" target="_blank">
+						Book Flights
 					</a>
 				</li>
 			</ul>
@@ -47,21 +47,22 @@
 	</div>
 	
 	<div class="part-two">
-			<a href="pages/food.html" title=""><img src="imgs/hotel1.png"></a>
+			<a href="pages/hotels.html" title=""><img src="imgs/hotel1.png"></a>
 	</div>
 	
 	<div class="part-three">
-		<img src="imgs/night.png" alt="">
+		<a href="http://www.mauritius-guide.net/nightlife/" target="_blank"><img src="imgs/night.png"></a>
 
 	</div>
 	
 	<div class="part-four">
-		<img src="imgs/nature.png" alt="">
+		<a href="http://www.mauritius-guide.net/nature-parks/" target="_blank"><img src="imgs/nature.png"></a>
 	</div>
 
 	<footer>
 		<ul id="footer">
-			<button id="one" type="">LEARN MORE</button>
+			<a href="http://www.mauritius.net/index.php" target="_blank"><button id="one" type="">LEARN MORE</button>
+			</a>
 			<li id="copy">Copyright © Mauritius Tourism Promotion Authority</li>
 		</ul>
 	</footer>
@@ -83,8 +84,8 @@
 			$('html, body').animate({scrollTop:$('#food').offset().top}, 1000);
 		});
 		
-		$('a.people').click(function(){
-			$('html, body').animate({scrollTop:$('#people').offset().top}, 1000);
+		$('a.culture').click(function(){
+			$('html, body').animate({scrollTop:$('#culture').offset().top}, 1000);
 		});
 		
 		$('a.places').click(function(){
